@@ -516,6 +516,10 @@ ENCOG.ArrayUtil.arrayMaxIndex = function (a1) {
 /// Util: The following code provides general utilities for Encog                                             //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+ENCOG.Util = function () {
+    'use strict';
+};
+
 /**
  * Strip leading, and ending, quotes from a string.  If the quotes are there.
  * @method stripQuotes
@@ -2850,3 +2854,5 @@ ENCOG.EGFILE.loadBasicNetwork = function (str) {
 
     return result;
 };
+
+module.exports = ENCOG;
